@@ -1,0 +1,76 @@
+html,
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 4px;
+  text-align: center;
+  font-kerning: 20;
+}
+nav {
+  padding: 0px;
+  background-color: cadetblue;
+  color: white;
+}
+#read {
+  height: 20px;
+}
+#form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#form > div {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+input {
+  border-radius: 2px;
+  border: 1px solid dimgray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  height: 20px;
+}
+#sbmit {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: green;
+}
+#form button {
+  height: 20px;
+}
+.libraryElement {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-rows: 60px 50px 1f 1fr;
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.libraryElement button {
+  text-decoration: none;
+  border: 0px;
+  background-color: rosybrown;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+}
+#library {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
